@@ -1,7 +1,8 @@
 package jp.gihyo.jenkinsbook.action;
 
 import jp.gihyo.jenkinsbook.dto.SampleDTO;
-
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpSession;
 /**
  * DTO class for SampleServlet.
  */
