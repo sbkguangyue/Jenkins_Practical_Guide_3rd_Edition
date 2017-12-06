@@ -1,8 +1,5 @@
 package jp.gihyo.jenkinsbook.action;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
-
 import jp.gihyo.jenkinsbook.dto.SampleDTO;
 
 /**
@@ -49,7 +46,7 @@ public class SampleAction {
 
         lastName = request.getParameter("LastName");
         if ((lastName == null) || ("".equals(lastName))) {
-            return false;
+            return true;
         }
 
         return true;
